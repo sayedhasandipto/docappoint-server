@@ -1,0 +1,31 @@
+{
+  "name": "docappoint-sever",
+  "version": "1.0.0",
+  "description": "DocAppoint is a comprehensive appointment management solution designed to streamline scheduling and enhance patient care.",
+  "keywords": [
+    "\"appointment",
+    "management\""
+  ],
+  "homepage": "https://github.com/sayedhasandipto/docappoint-server#readme",
+  "bugs": {
+    "url": "https://github.com/sayedhasandipto/docappoint-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayedhasandipto/docappoint-server.git"
+  },
+  "license": "ISC",
+  "author": "Sayed Hasan Dipto",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.3.0",
+    "mongoose": "^9.7.1"
+  }
+}

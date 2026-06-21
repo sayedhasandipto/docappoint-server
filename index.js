@@ -7,7 +7,7 @@ const port = process.env.PORT || 8000;
 
 // ─── Middleware ────────────────────────────────────────────────────────────────
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://docappoint.vercel.app'],
+    origin: ['http://localhost:3000', 'https://docappoint.vercel.app', 'https://docappointbd.vercel.app'],
     credentials: true,
 }));
 app.use(express.json());
